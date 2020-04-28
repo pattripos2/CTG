@@ -1,4 +1,4 @@
 library(plumber)
 apr <- plumber::plumb("myAPI.R")
-apr$run()
+apr$run(port=3551)
 
