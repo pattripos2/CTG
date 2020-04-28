@@ -1,6 +1,7 @@
 # this is translated as functioning API via
 #   pr <- plumber::plumb("DRug2NCIt_CTG_DM.R")  ; pr$run()
-# invoke as http://host:port/drug?s=name
+# invoke as 
+#.      ssh knolserver "curl http://localhost:3551/drug?s=etoposide"
 #  where name needs %20 in place of spaces, at least initially
 #
 #  take a drug name and generate a table row of info from NCIt, CTG and DailyMed
